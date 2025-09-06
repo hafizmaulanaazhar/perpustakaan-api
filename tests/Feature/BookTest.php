@@ -5,13 +5,15 @@ namespace Tests\Feature;
 use Tests\TestCase;
 use App\Models\Book;
 use App\Models\User;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class BookTest extends TestCase
 {
+    use RefreshDatabase;
     public function test_can_create_book()
     {
         $user = User::factory()->create();
-        $this->actingAs($user);
+        $this->actingAs($user, 'sanctum');
 
         $bookData = [
             'title' => 'Test Book',

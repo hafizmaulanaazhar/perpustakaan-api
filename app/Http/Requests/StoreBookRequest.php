@@ -22,4 +22,13 @@ class StoreBookRequest extends FormRequest
             'stock' => 'required|integer|min:0'
         ];
     }
+
+    public function messages()
+    {
+        return [
+            'published_year.digits' => 'The published year must be 4 digits.',
+            'published_year.min' => 'The published year must be at least 1900.',
+            'published_year.max' => 'The published year may not be greater than the current year.',
+        ];
+    }
 }

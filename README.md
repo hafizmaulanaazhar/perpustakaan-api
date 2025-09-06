@@ -47,4 +47,17 @@ API Endpoints
 - GET /api/loans/{user_id} - Get user's active loan
 10. API endpoints require Sanctum authentication. Include the token in the Authorization header "authorize"
 11. php artisan queue:work
-12. 
+12. API Documentation
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/855f98a5-c7b0-4d0c-b291-07ec21f9bab7" />
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/579d6022-99c9-4eb9-b957-0f8b578ed0a6" />
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/24eeaf9e-614f-4ced-b498-7b773560ec52" />
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7d17add2-7266-45aa-9a00-43f84befe29a" />
+
+
+
+
+
+  
+
+
+
